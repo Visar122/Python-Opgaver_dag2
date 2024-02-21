@@ -26,11 +26,11 @@ def merge(L1, L2):
 def main():
     L1 = [1, 3, 5]
     L2 = [2, 4, 6]
-    print(merge(L1, L2))  # Output: [1, 2, 3, 4, 5, 6]
+    print(merge(L1, L2))  
 
     L3 = [1, 2, 3]
     L4 = [4, 5, 6]
-    print(merge(L3, L4))  # Output: [1, 2, 3, 4, 5, 6]
+    print(merge(L3, L4))  
 
 if __name__ == "__main__":
     main()
