@@ -1,5 +1,5 @@
 def detect_ranges(L):
-    List = L.copy()  #  copy of the original list to avoid modifying it
+    List = L.copy()  
     List.sort()
     result = []
     start = List[0]
